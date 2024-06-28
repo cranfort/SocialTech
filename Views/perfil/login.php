@@ -121,4 +121,3 @@
 
       <!-- footer area start -->
       <?php include_once 'Views/template/footer.php'   ?>
-</html>

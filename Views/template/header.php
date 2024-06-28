@@ -453,7 +453,7 @@
                                        <path fill-rule="evenodd" clip-rule="evenodd" d="M0 1C0 0.447715 0.447715 0 1 0H15C15.5523 0 16 0.447715 16 1C16 1.55228 15.5523 2 15 2H1C0.447715 2 0 1.55228 0 1ZM0 7C0 6.44772 0.447715 6 1 6H17C17.5523 6 18 6.44772 18 7C18 7.55228 17.5523 8 17 8H1C0.447715 8 0 7.55228 0 7ZM1 12C0.447715 12 0 12.4477 0 13C0 13.5523 0.447715 14 1 14H11C11.5523 14 12 13.5523 12 13C12 12.4477 11.5523 12 11 12H1Z" fill="currentColor"/>
                                     </svg>
                                  </span>     
-                                 All Departments                            
+                                 Todos Los Departamentos                            
                               </button>
                               <nav class="tp-category-menu-content">
                                <ul>
@@ -644,116 +644,67 @@
                            <div class="main-menu menu-style-1">
                               <nav class="tp-main-menu-content">
                                  <ul>
-                                    <li class="has-dropdown has-mega-menu">
-                                       <a href="index.html">Home</a>
-                                       <div class="home-menu tp-submenu tp-mega-menu">
-                                          <div class="row row-cols-1 row-cols-lg-4 row-cols-xl-5">
-                                             <div class="col">
-                                                <div class="home-menu-item ">
-                                                   <a href="index.html">
-                                                      <div class="home-menu-thumb p-relative fix">
-                                                         <img src="<?php echo BASE_URL . 'Assets/img/menu/menu-home-1.jpg'; ?>" alt="">
-                                                      </div>
-                                                      <div class="home-menu-content">
-                                                         <h5 class="home-menu-title">Electronics </h5>
-                                                      </div>
-                                                   </a>
-                                                </div>
-                                             </div>
-                                             <div class="col">
-                                                <div class="home-menu-item ">
-                                                   <a href="index-2.html">
-                                                      <div class="home-menu-thumb p-relative fix">
-                                                         <img src="<?php echo BASE_URL . 'Assets/img/menu/menu-home-2.jpg'; ?>" alt="">
-                                                      </div>
-                                                      <div class="home-menu-content">
-                                                         <h5 class="home-menu-title">Fashion</h5>
-                                                      </div>
-                                                   </a>
-                                                </div>
-                                             </div>
-                                             <div class="col">
-                                                <div class="home-menu-item ">
-                                                   <a href="index-3.html">
-                                                      <div class="home-menu-thumb p-relative fix">
-                                                         <img src="<?php echo BASE_URL . 'Assets/img/menu/menu-home-3.jpg'; ?>" alt="">
-                                                      </div>
-                                                      <div class="home-menu-content">
-                                                         <h5 class="home-menu-title">Beauty</h5>
-                                                      </div>
-                                                   </a>
-                                                </div>
-                                             </div>
-                                             <div class="col">
-                                                <div class="home-menu-item ">
-                                                   <a href="index-4.html">
-                                                      <div class="home-menu-thumb p-relative fix">
-                                                         <img src="<?php echo BASE_URL . 'Assets/img/menu/menu-home-4.jpg'; ?>" alt="">
-                                                      </div>
-                                                      <div class="home-menu-content">
-                                                         <h5 class="home-menu-title">Jewelry </h5>
-                                                      </div>
-                                                   </a>
-                                                </div>
-                                             </div>
-                                             <div class="col">
-                                                <div class="home-menu-item ">
-                                                   <a href="index-5.html">
-                                                      <div class="home-menu-thumb p-relative fix">
-                                                         <img src="<?php echo BASE_URL . 'Assets/img/menu/menu-home-5.jpg'; ?>" alt="">
-                                                      </div>
-                                                      <div class="home-menu-content">
-                                                         <h5 class="home-menu-title">Grocery</h5>
-                                                      </div>
-                                                   </a>
-                                                </div>
-                                             </div>
-                                          </div>
-                                       </div>
+                                    <li class=" has-mega-menu">
+                                       <a href="<?php echo BASE_URL . 'principal'; ?>">Inicio</a>
                                     </li>
                                     <li  class="has-dropdown has-mega-menu">
-                                       <a href="shop.html">Shop</a>
+                                       <a href="<?php echo BASE_URL . 'empresas'; ?> " >Negocios</a>
                                        <div class="shop-mega-menu tp-submenu tp-mega-menu">
                                           <div class="row">
                                              <div class="col-lg-2">
                                                 <div class="shop-mega-menu-list">
-                                                      <a href="shop.html" class="shop-mega-menu-title">Shop Pages</a>
+                                                      <a href="shop.html" class="shop-mega-menu-title">Salud y Bienestar</a>
                                                       <ul>
-                                                          <li><a href="shop-category.html">Grid Category</a></li>
-                                                          <li><a href="shop.html">Grid Layout</a></li>
-                                                          <li><a href="shop-list.html">List Layout</a></li>
-                                                          <li><a href="shop-masonary.html">Masonary Layout</a></li>
-                                                          <li><a href="shop-full-width.html">Full width Layout</a></li>
-                                                          <li><a href="shop-1600.html">1600px Layout</a></li>
-                                                          <li><a href="shop.html">Left Sidebar</a></li>
-                                                          <li><a href="shop-right-sidebar.html">Right Sidebar</a></li>
-                                                          <li><a href="shop-no-sidebar.html">Hidden Sidebar</a></li>
+                                                          <li><a href="shop-category.html">Clínicas médicas</a></li>
+                                                          <li><a href="shop.html">Consultorios dentales</a></li>
+                                                          <li><a href="shop.html">Gimnasios</a></li>
+                                                          <li><a href="shop.html">Spas</a></li>
+                                                      </ul>
+                                                      <hr>
+                                                      <a href="shop.html" class="shop-mega-menu-title">Finanzas</a>
+                                                      <ul>
+                                                          <li><a href="shop-category.html">Bancos</a></li>
+                                                          <li><a href="shop-category.html">Servicios de contabilidad</a></li>
+                                                          <li><a href="shop-category.html">Seguros</a></li>
+                                                          <li><a href="shop.html">Consultoría financiera</a></li>
                                                       </ul>
                                                 </div>
                                              </div>
                                              <div class="col-lg-2">
                                                 <div class="shop-mega-menu-list">
-                                                      <a href="shop.html" class="shop-mega-menu-title">Features</a>
+                                                      <a href="shop.html" class="shop-mega-menu-title">Alimentación y Bebidas</a>
                                                       <ul>
-                                                         <li><a href="shop-filter-dropdown.html">Filter Dropdown</a></li>
-                                                         <li><a href="shop-filter-offcanvas.html">Filters Offcanvas</a></li>
-                                                         <li><a href="shop.html">Filters Sidebar</a></li>
-                                                         <li><a href="shop-load-more.html">Load More button</a></li>
-                                                         <li><a href="shop-infinite-scroll.html">Infinit scrolling</a></li>
-                                                         <li><a href="shop-list.html">Collections list</a></li>
-                                                         <li><a href="shop.html">Hidden search</a></li>
-                                                         <li><a href="shop.html">Search Full screen</a></li>
+                                                         <li><a href="shop-filter-dropdown.html">Restaurantes</a></li>
+                                                         <li><a href="shop-filter-offcanvas.html">Cafeterías</a></li>
+                                                         <li><a href="shop.html">Bares</a></li>
+                                                         <li><a href="shop-load-more.html">Tiendas de comestibles</a></li>
+                                                      </ul>
+                                                      <hr>
+                                                      <a href="shop.html" class="shop-mega-menu-title">Servicios Profesionales</a>
+                                                      <ul>
+                                                          <li><a href="shop-category.html">Bufetes de abogados</a></li>
+                                                          <li><a href="shop-category.html">Agencias de publicidad</a></li>
+                                                          <li><a href="shop-category.html">Consultorías empresariales</a></li>
+                                                          <li><a href="shop.html">Servicios de traducción</a></li>
                                                       </ul>
                                                 </div>
                                              </div>
                                              <div class="col-lg-2">
                                                 <div class="shop-mega-menu-list">
-                                                      <a href="shop.html" class="shop-mega-menu-title">Hover Style</a>
+                                                      <a href="shop.html" class="shop-mega-menu-title">Retail</a>
                                                       <ul>
-                                                         <li><a href="shop.html">Hover Style 1</a></li>
-                                                         <li><a href="shop.html">Hover Style 2</a></li>
-                                                         <li><a href="shop.html">Hover Style 3</a></li>
-                                                         <li><a href="shop.html">Hover Style 4</a></li>
+                                                         <li><a href="shop.html">Tiendas de ropa</a></li>
+                                                         <li><a href="shop.html">Electrónica</a></li>
+                                                         <li><a href="shop.html">Muebles</a></li>
+                                                         <li><a href="shop.html">Joyas</a></li>
+                                                      </ul>
+                                                      <hr>
+                                                      <a href="shop.html" class="shop-mega-menu-title">Entretenimiento y Ocio</a>
+                                                      <ul>
+                                                         <li><a href="shop.html">Cines</a></li>
+                                                         <li><a href="shop.html">Teatros</a></li>
+                                                         <li><a href="shop.html">Parques de diversiones</a></li>
+                                                         <li><a href="shop.html">Centros de entretenimiento</a></li>
                                                       </ul>
                                                 </div>
                                              </div>
@@ -761,7 +712,7 @@
                                                 <div class="shop-mega-menu-img">
                                                    <img src="<?php echo BASE_URL . 'Assets/img/menu/product/menu-product-img-1.jpg'; ?>" alt="">
                                                    <div class="shop-mega-menu-btn">
-                                                      <a href="shop-category.html" class="tp-menu-showcase-btn tp-menu-showcase-btn-2">Phones</a>
+                                                      <a href="shop-category.html" class="tp-menu-showcase-btn tp-menu-showcase-btn-2">Ofertas</a>
                                                    </div>
                                                 </div>
                                              </div>
@@ -769,7 +720,7 @@
                                                 <div class="shop-mega-menu-img">
                                                    <img src="<?php echo BASE_URL . 'Assets/img/menu/product/menu-product-img-2.jpg'; ?>" alt="">
                                                    <div class="shop-mega-menu-btn">
-                                                      <a href="shop-category.html" class="tp-menu-showcase-btn tp-menu-showcase-btn-2">Cameras</a>
+                                                      <a href="shop-category.html" class="tp-menu-showcase-btn tp-menu-showcase-btn-2">Descuentos</a>
                                                    </div>
                                                 </div>
                                              </div>
@@ -778,7 +729,7 @@
                                    </li>
                                     <li class="has-dropdown has-mega-menu ">
                                        
-                                       <a href="shop.html">Products</a>
+                                       <a href="<?php echo BASE_URL . 'productos'; ?>">Productos</a>
                                        <ul class="tp-submenu tp-mega-menu mega-menu-style-2">
                                           <!-- first col -->
                                           <li class="has-dropdown">
@@ -837,9 +788,9 @@
 
                                        </ul>
                                     </li>
-                                    <li><a href="coupon.html">Coupons</a></li>
+                                    <li><a href="<?php echo BASE_URL . 'cupones'; ?>">Coupons</a></li>
                                     <li class="has-dropdown">
-                                       <a href="blog.html">Blog</a>
+                                       <a href="<?php echo BASE_URL . 'blog'; ?>">Blog</a>
                                        <ul class="tp-submenu">
                                           <li><a href="blog.html">Blog Standard</a></li>
                                           <li><a href="blog-grid.html">Blog Grid</a></li>
@@ -848,7 +799,7 @@
                                           <li><a href="blog-details.html">Blog Details</a></li>
                                        </ul>
                                     </li>
-                                    <li><a href="contact.html">Contact</a></li>
+                                    <li><a href="<?php echo BASE_URL . 'contacto'; ?>">Contact</a></li>
                                  </ul>
                               </nav>
                            </div>
